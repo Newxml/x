@@ -36,6 +36,7 @@ namespace ConsoleApplication16
         static void Main(string[] args)
         {
             GreetPeople("AA", DateTime.Now, EnglishGreeting);
+            GreetPeople("aa", EnglishGreeting);
             GreetPeople("阿斗", ChineseGreeting);
             Console.ReadKey();
         }
